@@ -704,7 +704,7 @@
             const systemPrompt = "당신은 전문 ATS(인재 채용 시스템) AI 파서입니다. 이력서 텍스트에서 지원자의 이름, 이메일, 전화번호, 경력년수(예: '3년 2개월' 또는 '신입'), 그리고 핵심 경력 요약(2문장 이내)을 추출하여 반드시 지정된 JSON 형식으로만 반환하세요.";
             const userPrompt = `다음 이력서 내용을 분석하여 JSON으로 추출해주세요:\n\n${fullText.substring(0, 4000)}`;
 
-            const apiKey = "AQ.Ab8RN6JzYcF1G5GrAYUdM0wRU-hTq31IISxncPMhDr7NDtOsRg"; 
+            const apiKey = "AQ.Ab8RN6InTtnbnzhL_h8sOSaGrjYbG2ocbdSJdE6AmVBh-OcEBQ"; 
             const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
 
             const payload = {
